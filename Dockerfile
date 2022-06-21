@@ -5,6 +5,6 @@ RUN apk add git
 
 WORKDIR /project
 
-COPY calling-react-web ./
+COPY haris-app ./
 
 RUN npm install  && npm run build
